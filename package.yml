@@ -1,0 +1,21 @@
+name        : presentproto
+version     : 1.0
+release     : 4
+source      :
+    - http://xorg.freedesktop.org/releases/individual/proto/presentproto-1.0.tar.gz : 02f8042cb351dd5c3699a0dbdb2ab25f86532efe3e1e3e97897e7f44b5c67040
+license     :
+    -MIT
+summary     : X11 Present Extension
+component   : xorg.proto
+patterns    : /
+description : |
+    TThe Present extension provides a way for applications to update their
+    window contents from a pixmap in a well defined fashion, synchronizing
+    with the display refresh and potentially using a more efficient
+    mechanism than copying the contents of the source pixmap.
+setup      : |
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install

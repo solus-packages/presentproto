@@ -1,0 +1,40 @@
+<PISI>
+    <Source>
+        <Name>presentproto</Name>
+        <Packager>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Packager>
+        <License>-MIT</License>
+        <PartOf>xorg.proto</PartOf>
+        <Summary xml:lang="en">X11 Present Extension</Summary>
+        <Description xml:lang="en">TThe Present extension provides a way for applications to update their
+window contents from a pixmap in a well defined fashion, synchronizing
+with the display refresh and potentially using a more efficient
+mechanism than copying the contents of the source pixmap.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>presentproto</Name>
+        <Summary xml:lang="en">X11 Present Extension</Summary>
+        <Description xml:lang="en">TThe Present extension provides a way for applications to update their
+window contents from a pixmap in a well defined fashion, synchronizing
+with the display refresh and potentially using a more efficient
+mechanism than copying the contents of the source pixmap.
+</Description>
+        <PartOf>xorg.proto</PartOf>
+        <Files>
+            <Path fileType="data">/</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="4">
+            <Date>2016-04-17</Date>
+            <Version>1.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
