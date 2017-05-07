@@ -2,10 +2,10 @@
     <Source>
         <Name>presentproto</Name>
         <Packager>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
-        <License>-MIT</License>
+        <License>MIT</License>
         <PartOf>xorg.proto</PartOf>
         <Summary xml:lang="en">X11 Present Extension</Summary>
         <Description xml:lang="en">TThe Present extension provides a way for applications to update their
@@ -29,12 +29,12 @@ mechanism than copying the contents of the source pixmap.
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2016-04-17</Date>
-            <Version>1.0</Version>
+        <Update release="5">
+            <Date>2017-05-07</Date>
+            <Version>1.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
